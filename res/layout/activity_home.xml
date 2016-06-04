@@ -11,6 +11,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="21dp" >
-    </com.jakkarrl.jakkarrllauncher.views.AppGrid>
+    </com.ragzzyr.yaslauncher.views.AppGrid>
 
 </RelativeLayout>

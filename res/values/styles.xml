@@ -16,7 +16,13 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <style parent="android:Theme.Material.Wallpaper.NoTitleBar" name="HomeTheme"></style>
+    <style parent="android:Theme.Material.Wallpaper.NoTitleBar" name="HomeTheme">
+         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+         <item name="android:statusBarColor">@android:color/transparent</item>
+         <item name="android:navigationBarColor">@android:color/transparent</item>
+         <item name="android:windowTranslucentStatus">false</item>
+         <item name="android:windowTranslucentNavigation">false</item>
+    </style>
     
 
 </resources>
